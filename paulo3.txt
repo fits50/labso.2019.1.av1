@@ -1,0 +1,16 @@
+./paulo1.txt
+./pasta3/pasta31/3.txt
+./backup-paulo/pasta3/pasta31/3.txt
+./backup-paulo/pasta2/2.txt
+./backup-paulo/pasta1/1.txt
+./paulo03/paulo1.txt
+./paulo03/paulo2.txt
+./paulo03/paulo3.txt
+./.git/refs/tags
+./.git/objects/pack
+./.git/objects/info
+./.git/branches
+./pasta2/2.txt
+./paulo2.txt
+./pasta1/1.txt
+./paulo3.txt

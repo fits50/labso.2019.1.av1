@@ -1,5 +1,4 @@
-Aluno: Paulo Rafael da Silva Alcântara
-Matrícula:0050013842
+Aluno: (SeuNome)
 Prova de Laboratorio de Sistemas Operacionais
 Professor: Alex Salgado
 1o. Semestre de 2019   Turno: Noite            AV1
@@ -13,15 +12,13 @@ certifique que existe apenas uma pasta com esse nome) e cole nas questões todos
 as linhas 100 a 110 do arquivo log/access.log
 Resposta (Cole aqui o(s) comandos utilizados): 
 
-tail -n 1300 log/access.log | head -n 100 log/access.log
+
 
 2 - Renomear o arquivo prova1-2019.txt da sua pasta para prova1-seunome.txt 
 (dica de segurnaça: se o arquivo estiver aberto, para garantir que o arquivo não será corrompido, salve e feche-o antes de inciar o comando)
 Ex.: prova1-alex.txt
 Resposta (Cole aqui o(s) comandos utilizados): 
 
-cp -f prova1-2019.txt prova1-2019B.txt
-mv prova1-2019B.txt prova1-PAULO.txt
 
 
 3 - Crie 3 arquivos em branco que comecem com seu nome e termina com uma 
@@ -29,19 +26,19 @@ sequencia 1, 2 e 3.
 Ex.: alex1.txt, alex2.txt, alex3.txt. Que comandos você utilizou?
 Resposta (Cole aqui o(s) comandos utilizados): 
 
-touch paulo1.txt; touch paulo2.txt; touch paulo3.txt
+
 
 4 - Listar todos os arquivos vazios a partir da sua pasta principal e 
 direcionar a saida para o terceiro arquivo do item anterior.
 Resposta (Cole aqui o(s) comandos utilizados): 
 
-find -empty > paulo3.txt 2>&1
+
 
 5 - Crie 1 pasta com seu nome+diadenascimento (ex.:alex25) e copie os 
 3 arquivos criandos anteriormente para esta pasta.
 Resposta (Cole aqui o(s) comandos utilizados): 
 
-mkdir paulo03; cp -f paulo*.txt paulo03;
+
 
 
 6 - Utilizando wildcards, qual o comando para listar todos os arquivos 
@@ -52,18 +49,16 @@ Resposta (Cole aqui o(s) comandos utilizados):
 
 7 - A partir de sua pasta original(item 0), usando o comando find do linux, 
 diga quantos diretórios existem cujo nome começa com "pasta"? 
-
-Resposta1 (comando linux usado):
+Resposta1 (comando linux usado): 
 Resposta2 (numero de diretórios encontrados) :
 
-find pasta*
-4
+
 
 8 - A partir de sua pasta original(item 0), copiar a pasta1, pasta2 e pasta3 (e seu conteúdo) para 
 uma nova pasta chamada backup-seunome 
 Resposta (Cole aqui o(s) comandos utilizados): 
 
-mkdir backup-paulo;cp -f -r pasta* backup-paulo
+
 
 **************************************************************************************************
 

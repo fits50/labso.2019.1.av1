@@ -1,0 +1,3 @@
+backup-paulo/	log/	 pasta3/     paulo2.txt       prova1-PAULO.txt
+final.txt	pasta1/  paulo03/    paulo3.txt       README.md
+instrucoes.txt	pasta2/  paulo1.txt  prova1-2019.txt  ultimocomando.txt
